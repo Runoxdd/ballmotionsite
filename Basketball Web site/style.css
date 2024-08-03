@@ -1,0 +1,45 @@
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* General gradient background class */
+.header-gradient {
+    background: linear-gradient(300deg, 
+                #0033FF,  /* Neon Dark Blue */
+                #4B0082,  /* Neon Dark Purple */
+                #434343); /* Dark Grey */
+    background-size: 200% 200%; /* Ensure smooth gradient animation */
+    animation: gradientAnimation 18s ease infinite; /* Smooth animation */
+    height: 100%; /* Full height of the parent container */
+    width: 100%;  /* Full width of the parent container */
+    position: relative; /* Required to cover the element properly */
+}
+.ball{
+    border-radius: 100%;
+   
+}
+.ballnike{
+    border-radius: 100%;
+}
+.lamelopic{
+    border-radius: 1%;
+}
+.bronpic{
+    border-radius: 1%;
+}
+.durantpic{
+    border-radius: 1%;
+}
+a {
+    text-decoration: none;
+    color: inherit; /* Or specify a color like #000000 for black */
+  }
+
